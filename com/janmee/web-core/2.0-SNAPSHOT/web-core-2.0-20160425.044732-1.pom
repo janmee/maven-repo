@@ -28,18 +28,18 @@
 
     <!-- 依赖包仓库定 -->
     <repositories>
-        <repository>
-            <id>nexus</id>
-            <name>nexus</name>
-            <url>http://mvn.gz.cvte.cn/nexus/content/groups/public/</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-                <updatePolicy>always</updatePolicy>
-            </snapshots>
-        </repository>
+        <!--<repository>-->
+            <!--<id>nexus</id>-->
+            <!--<name>nexus</name>-->
+            <!--<url>http://mvn.gz.cvte.cn/nexus/content/groups/public/</url>-->
+            <!--<releases>-->
+                <!--<enabled>true</enabled>-->
+            <!--</releases>-->
+            <!--<snapshots>-->
+                <!--<enabled>true</enabled>-->
+                <!--<updatePolicy>always</updatePolicy>-->
+            <!--</snapshots>-->
+        <!--</repository>-->
         <repository>
             <id>hibernate-memcached</id>
             <name>hibernate-memcached</name>
@@ -236,12 +236,12 @@
             <version>${shiro.version}</version>
         </dependency>
 
-        <!-- seewo modules -->
-        <dependency>
-            <groupId>com.cvte.myou</groupId>
-            <artifactId>module-monitor-sdk</artifactId>
-            <version>${module-monitor-sdk.version}</version>
-        </dependency>
+        <!--&lt;!&ndash; seewo modules &ndash;&gt;-->
+        <!--<dependency>-->
+            <!--<groupId>com.cvte.myou</groupId>-->
+            <!--<artifactId>module-monitor-sdk</artifactId>-->
+            <!--<version>${module-monitor-sdk.version}</version>-->
+        <!--</dependency>-->
 
         <!-- 单元测试 -->
         <dependency>
